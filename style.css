@@ -1,0 +1,97 @@
+
+*{
+margin: 0;
+padding: 0;
+
+}
+
+.hide{
+display: none;
+
+}
+.carGame{
+    background-image: url("https://images.unsplash.com/photo-1562016600-ece13e8ba570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2F0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+}
+
+
+.score,
+.highScore {
+position: absolute;
+top: 10px;
+left: 20px;
+text-align: center;
+background-color: rgb(100, 224, 156);
+width: 200px;
+color: rgb(59, 40, 40);
+line-height: 40px;
+border-radius: 4px;
+font-size: 1.2em;
+}
+
+
+
+
+
+.ClickToStart {
+cursor: pointer;
+}
+.car{
+ background: url("https://cdn.pixabay.com/photo/2013/07/12/11/58/car-145009_960_720.png");   
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ height: 75px;
+ width: 50px;
+ position: absolute;
+ top: 520px;
+ 
+}
+.Opponents {
+
+    background-image: url("https://raw.githubusercontent.com/shivamjain1/Car-Racer-Vanilla-JS/main/assets/images/car.png");
+    background-repeat: no-repeat;
+      
+    background-size: 100% 100%;
+    height: 75px;
+    width: 50px;
+    position: absolute;
+    top: 520px;
+    }
+
+
+.gameArea{
+    height: 100vh;
+    width: 400px;
+     margin: auto;
+    position: relative;
+    background-color: rgb(32, 32, 32);
+    overflow: hidden;
+    border-left: 4px dashed white;
+    border-right: 4px dashed white;
+}
+.roadLines {
+    height: 100px;
+    width: 10px;
+    background-color: white;
+    position: absolute;
+    margin-left: 195px;
+    }
+.startScreen{
+width: 500px;
+height: 107px;
+line-height: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+z-index: 2;
+margin: auto;
+background-color: rgb(43, 205, 226);
+text-align: center;
+border-bottom: 2px solid rgb(132, 197, 197);
+
+}
+
